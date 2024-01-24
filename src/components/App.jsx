@@ -31,6 +31,7 @@ function App() {
         id = {index}
         title = {postItem.title}
         description = {postItem.description}
+        timestamp = {postItem.timestamp}
         />
       })}
       <Footer />

@@ -8,6 +8,9 @@ function Post(props){
         <p>
             {props.description}
         </p>
+        <small>
+            Posted on {props.timestamp}
+        </small>
     </div>
 }
 
