@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import UploadPost from "./UploadPost";
-import Post from "./Post";
-import PostArray from './PostArray';
+import UploadPost from "./Post/UploadPost";
+import Post from "./Post/Post";
+import PostArray from './Post/PostArray';
 
 function App() {
   const [posts, setPost] = useState(PostArray);
