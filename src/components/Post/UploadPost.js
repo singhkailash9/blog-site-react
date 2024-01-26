@@ -20,7 +20,7 @@ function UploadPost(props) {
         }));
     }
 
-    function handleClick(e) {
+    const handleClick = (e) => {
         e.preventDefault();
         const postWithDefaultImage = {
             ...UploadedPost,

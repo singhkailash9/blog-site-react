@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* background-color: rgba(173, 167, 255, 0.74); */
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+  /* background-image: url('./jess-bailey-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   */
+}
+
+.gap {
+  height: 35px;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar li {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  form button {
+    right: 50%;
+  }
+
+  .post {
+    width: 80%;
+  }
+}
