@@ -2,6 +2,7 @@ import React from 'react';
 
 function Post(props){
     return <div className='post'>
+        <img src={props.image} alt="Post" />
         <h1>
             {props.title}
         </h1>

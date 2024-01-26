@@ -32,6 +32,7 @@ function App() {
         title = {postItem.title}
         description = {postItem.description}
         timestamp = {postItem.timestamp}
+        image = {postItem.image}
         />
       })}
       <Footer />

@@ -7,6 +7,10 @@
 
 html {
     font-family: "Nunito", sans-serif;
+    /* background-image: url('./jess-bailey-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   */
 }
 
 header {
@@ -103,7 +107,7 @@ form {
   }
   
   .post p{
-    background-color: #7dadeb;
+    background-color: #a3c0e6;
     text-align: center;
     padding-bottom: 0.5rem;
   }
