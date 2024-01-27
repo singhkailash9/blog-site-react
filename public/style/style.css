@@ -13,6 +13,11 @@ html {
     background-attachment: fixed;   */
 }
 
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
 .gap {
   height: 35px;
 }
