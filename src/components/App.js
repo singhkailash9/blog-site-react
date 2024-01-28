@@ -32,7 +32,7 @@ function App() {
           <button
             onClick={() => setShowUploadForm(!showUploadForm)}
             className="add-post-button">
-            {showUploadForm ? "Cancel" : "Add Your Own Post"}
+            {showUploadForm ? "Cancel" : "Add Post"}
           </button>
 
           {showUploadForm && <UploadPost postRequest={handlePost} />}

@@ -2,9 +2,10 @@ import React from 'react';
 import Post from './Post';
 
 function Posts({ posts }) {
+  const reversedPosts = [...posts].reverse();
   return (
     <div className="posts">
-      {posts.map((postItem, index) => (
+      {reversedPosts.map((postItem, index) => (
         <Post
           key={index}
           id={index}
