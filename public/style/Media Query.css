@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 821px) {
     header {
       flex-direction: column;
       align-items: center;
@@ -13,6 +13,10 @@
       margin-right: 0;
       margin-bottom: 0.5rem;
     }
+
+    form {
+      width: 90%;
+    }
   
     form button {
       margin: auto;
@@ -20,6 +24,10 @@
   
     .post {
       width: 80%;
+    }
+
+    .post h1 {
+      padding: 0.2rem;
     }
 
     .main-content {
@@ -32,8 +40,13 @@
     }
 
     .latest-trending {
+      width: 60%;
       margin: auto;
       margin-bottom: 6%;
+    }
+
+    .add-post-button {
+      width: auto;
     }
   }
 
@@ -48,5 +61,12 @@
     .navbar li{
       margin-top: 0%;
       margin: auto;
+    }
+    .trending {
+      margin-bottom: 6%;
+    }
+    .post {
+      width: 80%;
+      padding:0;
     }
   }
