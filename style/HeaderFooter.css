@@ -1,0 +1,47 @@
+header {
+    padding-left: 15px;
+    background-color: rgb(4, 0, 255);
+    color: rgb(200, 253, 253);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar {
+    list-style: none;
+    display: flex;
+    gap: 1.8rem;
+    flex-wrap: wrap;
+  }
+  
+  .navbar li {
+    cursor: pointer;
+    padding: 0.4rem;
+    margin-top: 0.27rem;
+    margin-right: 0.5rem;
+  }
+  
+  .navbar li:hover {
+    background-color: #668acc;
+  }
+  
+  .navbar input {
+    border-radius: 3px;
+    padding: 0.3rem;
+    margin-top: 0.2rem;
+    box-shadow: none;
+    border: none;
+  }
+  
+  .navbar input:focus {
+    background-color: rgb(220, 242, 250);
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(4, 0, 255);
+    color: rgb(200, 253, 253);
+  
+  }

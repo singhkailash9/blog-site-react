@@ -1,0 +1,52 @@
+@media only screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .navbar li {
+      margin-right: 0;
+      margin-bottom: 0.5rem;
+    }
+  
+    form button {
+      margin: auto;
+    }
+  
+    .post {
+      width: 80%;
+    }
+
+    .main-content {
+      flex-direction: column;
+      margin: auto;
+    }
+    
+    .latest {
+      margin-top: 0%;
+    }
+
+    .latest-trending {
+      margin: auto;
+      margin-bottom: 6%;
+    }
+  }
+
+  @media only screen and (max-width: 580px){
+    .navbar {
+      gap: 1.2rem;
+    }
+    #searchbar {
+      width: 90%;
+      margin: auto;
+    }
+    .navbar li{
+      margin-top: 0%;
+      margin: auto;
+    }
+  }

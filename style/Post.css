@@ -1,0 +1,49 @@
+.post {
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 10px auto 10px auto;
+    padding: 6px;
+    flex-grow: 1;
+}
+
+.post h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    background-color: #668acc;
+    text-align: center;
+}
+
+.post p {
+    background-color: #a3c0e6;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.post small {
+    display: block;
+    color: #fff;
+    background-color: #668acc;
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.add-post-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 30%;
+    margin: auto;
+  }
+  
+  .add-post-button:hover {
+    background-color: #45a049;
+  }
+  
