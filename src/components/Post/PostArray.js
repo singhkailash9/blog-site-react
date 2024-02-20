@@ -1,3 +1,5 @@
+// This data is used only for front-end, in back-end the posts are fetched from MongoDB to display
+
 const PostArray = [
     {
         id: 0,

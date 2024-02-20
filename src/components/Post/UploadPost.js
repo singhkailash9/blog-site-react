@@ -5,18 +5,14 @@ function UploadPost(props) {
     const [UploadedPost, setUploadedPost] = useState({
         title: "",
         description: "",
-        timestamp: "",
         image: ""
     });
-
-    const getCurrentTime = () => new Date().toLocaleString();
 
     const handleInput = (e) => {
         const { name, value } = e.target;
         setUploadedPost(prevValue => ({
             ...prevValue,
-            [name]: value,
-            timestamp: name === "title" || name === "description" ? getCurrentTime() : prevValue.timestamp
+            [name]: value
         }));
     }
 
@@ -31,7 +27,6 @@ function UploadPost(props) {
         setUploadedPost({
             title: "",
             description: "",
-            timestamp: "",
             image: ""
         });
     }
