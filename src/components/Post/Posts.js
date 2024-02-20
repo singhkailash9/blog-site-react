@@ -10,8 +10,8 @@ function Posts({ posts }) {
           key={postItem._id}
           title={postItem.title}
           description={postItem.description}
-          timestamp={postItem.timestamp}
-          image={postItem.imageURL}
+          createdAt={postItem.createdAt}
+          imageURL={postItem.imageURL}
         />
       ))}
     </div>

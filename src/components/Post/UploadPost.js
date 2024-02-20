@@ -5,7 +5,7 @@ function UploadPost(props) {
     const [UploadedPost, setUploadedPost] = useState({
         title: "",
         description: "",
-        image: ""
+        imageURL: ""
     });
 
     const handleInput = (e) => {
@@ -20,14 +20,14 @@ function UploadPost(props) {
         e.preventDefault();
         const postWithDefaultImage = {
             ...UploadedPost,
-            image: UploadedPost.image || "https://images.unsplash.com/photo-1575936123452-b67c3203c357?q=50"
+            imageURL: UploadedPost.imageURL || "https://images.unsplash.com/photo-1575936123452-b67c3203c357?q=50"
         };
 
         props.postRequest(postWithDefaultImage);
         setUploadedPost({
             title: "",
             description: "",
-            image: ""
+            imageURL: ""
         });
     }
 
@@ -37,7 +37,7 @@ function UploadPost(props) {
                 type="text" placeholder='Post Something' />
             <textarea onChange={handleInput} name="description" value={UploadedPost.description}
                 rows="3" placeholder='Write something related to post'></textarea>
-            <input onChange={handleInput} name='image' value={UploadedPost.image}
+            <input onChange={handleInput} name='imageURL' value={UploadedPost.imageURL}
                 type="text" placeholder='Image Link (Optional)' />
             <button type="submit">Post</button>
         </form>
